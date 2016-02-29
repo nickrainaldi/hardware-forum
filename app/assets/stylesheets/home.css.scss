@@ -1,0 +1,62 @@
+$darkMosicImage: asset-url('dark_mosaic');
+
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: asset-url('project_papper.png');
+}
+
+.jumbotron {
+    background-image: $darkMosicImage;
+    background-image:fixed;
+    min-height: 230px;
+    max-height:230px;
+    margin-bottom: 0px;
+    width:100%;
+}
+
+.logo {
+    color: #2e6da4;
+    font-size:40px;
+    line-height:70px;
+}
+
+.headingpara{
+    color: ivory;
+}
+
+.btn-primary{
+    float:right;
+}
+
+.posthead{
+    background-image: $darkMosicImage;
+    color:white;
+    position:relative;
+    min-height: 100px;
+}
+
+.table{
+    background-color: white;
+    padding-top:0px;
+}
+.bottom{
+
+    height:100px;
+    width:100%;
+    background-image: $darkMosicImage;
+    position:fixed;
+    bottom:0;
+    margin:0;
+    left:0;
+}
+
+.bottom > p{
+    color:white;
+    text-align: center;
+    font-size:18px;
+}
+
+
+
